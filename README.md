@@ -177,11 +177,12 @@ Rule 2 is particularly important: the system doesn't blindly auto-broadcast when
 
 ## 🌍 Multilingual Support
 
-The platform is fully localized in three languages critical for Western Ghats emergency operations:
+The platform is fully localized in four languages critical for Western Ghats emergency operations:
 
 - **English (`en`)** — Default administrative and operational language
 - **தமிழ் (`ta`)** — For Nilgiris, Coimbatore, and Tamil Nadu border districts
 - **മലയാളം (`ml`)** — For Wayanad, Idukki, Kozhikode, and Kerala state response units
+- **ಕನ್ನಡ (`kn`)** — For Kodagu, Chikkamagaluru, Hassan, and Karnataka ghat districts
 
 The localization engine is managed through a global `<LanguageProvider>` with a reactive `useI18n()` hook. Language preference persists via `localStorage` (`ews-lang`) and applies consistently across all five routes: Dashboard, Live Risk Map, Prediction Studio, Alert Broadcast Desk, and System Settings — including all dynamic risk badges and alert messages.
 
