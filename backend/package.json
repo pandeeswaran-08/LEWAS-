@@ -1,0 +1,25 @@
+{
+  "name": "landslide-ews-backend",
+  "version": "1.0.0",
+  "description": "REST API and Rule-Based Agent Backend for Landslide Early Warning System",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "landslide",
+    "early-warning",
+    "agentic-ai",
+    "express",
+    "nodejs"
+  ],
+  "author": "Western Ghats EWS Team",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.116.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
